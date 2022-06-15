@@ -14,7 +14,7 @@ describe('Browser Actions', () => {
     it('should click on Travel category', () => {
         cy.get('a').contains('Travel').click();
 
-        // Verify we landed on the right page
+       
         cy.get('h1').contains('Travel');
     });
 
@@ -33,7 +33,7 @@ describe('Challenge Time! Create more Test Scenarios', () => {
     it('should click on Poetry category', () => {
         cy.get('a').contains('Poetry').click();
 
-        // Verify we landed on the right page
+        
         cy.get('h1').contains('Poetry');
     });
 
