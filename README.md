@@ -1,5 +1,5 @@
 # Cypress Fundamentals
-First project
+First project:
 
 Select
 
